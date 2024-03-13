@@ -1,0 +1,64 @@
+.content-section {
+	background-color: var(--primary-backgroud);
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+}
+.content-cards-holder h1 {
+	text-align: center;
+	color: var(--primary-purple);
+	font-size: 1.875rem;
+	font-weight: 700;
+}
+.content-cards-item-holder {
+	display: grid;
+	grid-template-columns: repeat(3, 4fr);
+	align-items: center;
+	margin: 5% 10%;
+	gap: 2rem;
+}
+.content-cards-holder-purple {
+	background-color: var(--secondary-purple);
+	margin: 0 10%;
+	padding: 5% 5% 0% 5%;
+	border-radius: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff !important;
+}
+.content-cards-holder-purple h1 {
+	font-size: 2.125rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+	font-family: 'Lato', sans-serif;
+}
+.content-cards-text-purple {
+	font-size: 1.25rem;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	margin: 3rem;
+}
+.content-cards-button-holder-purple {
+	margin-bottom: 4rem;
+}
+.secondary-content-cards-item-holder {
+	display: grid;
+	grid-template-columns: repeat(3, 4fr);
+	gap: 4rem;
+	margin: 4rem;
+}
+@media (max-width: 1024px) {
+	.content-cards-item-holder {
+		display: grid;
+		grid-template-columns: repeat(1, 12fr);
+		align-items: center;
+		margin: 5% 10%;
+		gap: 2rem;
+	}
+	.secondary-content-cards-item-holder {
+		display: grid;
+		grid-template-columns: repeat(1, 12fr);
+		margin: 4rem;
+	}
+}

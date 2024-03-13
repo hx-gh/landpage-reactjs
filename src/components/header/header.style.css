@@ -1,0 +1,26 @@
+.header {
+	width: 100%;
+	padding: 2.125rem 2.125rem;
+}
+.header-container {
+	display: grid;
+	grid-template-columns: repeat(2, 6fr);
+	align-items: center;
+	font-size: 1rem;
+}
+.header-navigation-holder {
+	display: grid;
+	grid-template-columns: repeat(6, 2fr);
+	align-items: center;
+}
+.header-navigation-item {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #ffffff;
+}
+@media (max-width: 1024px) {
+	.header {
+		display: none;
+	}
+}

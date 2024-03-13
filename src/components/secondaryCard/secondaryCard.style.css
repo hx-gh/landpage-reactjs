@@ -1,0 +1,32 @@
+.seconday-cards-item-container {
+	display: grid;
+	grid-template-rows: 6fr 3fr 3fr;
+	flex-direction: column;
+	align-items: stretch;
+	height: 100%;
+}
+.seconday-cards-item-container img {
+	width: 84px;
+	height: auto;
+	align-self: center;
+	justify-self: center;
+}
+.seconday-cards-item-container h3 {
+	color: #fff;
+	font-size: 1.25rem;
+	font-weight: 500;
+	text-align: center;
+}
+.seconday-cards-item-container span {
+	font-size: 1.25rem;
+	text-align: center;
+}
+@media (max-width: 1024px) {
+	.seconday-cards-item-container {
+		display: grid;
+		grid-template-rows: 3fr 3fr 3fr;
+		flex-direction: column;
+		align-items: center;
+		height: 100%;
+	}
+}
