@@ -10,7 +10,9 @@
   </sub>
 </div>
 <br/>
-
+<div align="center">
+    <a href="https://landpage-reactjs.vercel.app/">Deployed Version</a>
+</div>
 # :computer: Technologies
 
 This project was made using the follow technologies:
