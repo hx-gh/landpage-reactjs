@@ -9,15 +9,20 @@
 	font-size: 1rem;
 }
 .header-navigation-holder {
-	display: grid;
-	grid-template-columns: repeat(6, 2fr);
+	display: flex;
 	align-items: center;
+	justify-content: space-evenly;
 }
 .header-navigation-item {
-	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	color: #ffffff;
+}
+.header-navigation-actions-items{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
 }
 @media (max-width: 1024px) {
 	.header {

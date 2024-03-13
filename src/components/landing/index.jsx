@@ -12,8 +12,8 @@ export default function Landing() {
 			<div>
 				<Sidebar />
 			</div>
-			<div className='header-body-holder'>
-				<div className='header-body-items-container'>
+			<div className='landing-body-holder'>
+				<div className='landing-body-items-container'>
 					<p>
 						Discover all possibilities of using this powerfull
 						tool and create science figures, posters and
@@ -23,7 +23,7 @@ export default function Landing() {
 						Start creating now
 					</button>
 				</div>
-				<div className='header-body-image-container'>
+				<div className='landing-body-image-container'>
 					<img src='/head-02.png' alt='Application example' />
 				</div>
 			</div>

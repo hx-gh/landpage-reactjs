@@ -1,13 +1,21 @@
+.header-section {
+	background: transparent
+		linear-gradient(248deg, #dc1866 0%, #ff9226 100%) 0% 0% no-repeat
+		padding-box;
+	opacity: 1;
+	height: 540px;
+}
 .content-section {
 	background-color: var(--primary-backgroud);
-	padding-top: 8rem;
-	padding-bottom: 8rem;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
 }
 .content-cards-holder h1 {
 	text-align: center;
 	color: var(--primary-purple);
 	font-size: 1.875rem;
 	font-weight: 700;
+	font-size: 2.125rem;
 }
 .content-cards-item-holder {
 	display: grid;
@@ -31,11 +39,9 @@
 	font-size: 2.125rem;
 	font-weight: 700;
 	margin-bottom: 2rem;
-	font-family: 'Lato', sans-serif;
 }
 .content-cards-text-purple {
 	font-size: 1.25rem;
-	font-family: 'Lato', sans-serif;
 	text-align: center;
 	margin: 3rem;
 }

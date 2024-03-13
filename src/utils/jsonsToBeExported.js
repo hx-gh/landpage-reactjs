@@ -1,20 +1,20 @@
 export const DefaultCards = [
 	{
-		title: 'Graphical Abstracts and Infographics',
+		title: 'Graphical Abstracts\nand Infographics',
 		content:
 			'Improve your papers’ impact and visibility through quality visual communication',
 		imagePath: '/image_2.png',
 		url: 'https://www.google.com',
 	},
 	{
-		title: 'Scientific Poster in a few clicks',
+		title: 'Scientific Poster\nin a few clicks',
 		content:
 			'Add visual impact to your posters with scientific illustrations and graphics',
 		imagePath: '/image_3.png',
 		url: 'https://www.google.com',
 	},
 	{
-		title: 'Make better Slide Presentation',
+		title: 'Make better\nSlide Presentation',
 		content:
 			'Transform your lectures, meetings and classes into high-impact visual experiences',
 		imagePath: '/image_1.png',
@@ -25,13 +25,13 @@ export const SecondaryCards = [
 	{
 		title: 'Drag and Drop',
 		content:
-			'Easily select and manage illustrations,text and templates',
+			'Easily select and manage illustrations, text and templates',
 		imagePath: '/ico_drag.png',
 	},
 	{
 		title: 'Pre-Made Resources',
 		content:
-			'Don’t waste time! Use our templates and just customize colours, text etc',
+			'Don’t waste time!\nUse our templates and just customize colours, text etc',
 		imagePath: '/ico_premade.png',
 	},
 	{

@@ -23,15 +23,17 @@ export default function Header() {
 					<div className='header-navigation-item'>
 						<a href=''>Jobs</a>
 					</div>
-					<div className='header-navigation-item'>
-						<button className='button transparent-style'>
-							Login
-						</button>
-					</div>
-					<div className='header-navigation-item'>
-						<button className='button purple-style'>
-							Sign up free
-						</button>
+					<div className='header-navigation-actions-items'>
+						<div className='header-navigation-item'>
+							<button className='button transparent-style'>
+								Login
+							</button>
+						</div>
+						<div className='header-navigation-item'>
+							<button className='button purple-style'>
+								Sign up free
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
